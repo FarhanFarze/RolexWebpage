@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Rolex Website - Swiss Luxury Watches</title>
+    <link rel="stylesheet" href="./rolex.css">
+    <script src="https://kit.fontawesome.com/7697a3f340.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+    /* display: grid; */
+    
+}
+
+/* HEADER */
+
+header{
+    background: linear-gradient(to right, #173a22, #29643e, rgb(49, 139, 49));
+    height: 15vh;
+}
+.container{
+    display: flex;
+    height: 15vh;
+}
+.menu{
+    /* background-color: rgb(226, 135, 15); */
+    width: 40%;
+    height: 15vh;
+}
+#menu{
+    margin-left: 15%;
+    margin-top: 30px; 
+    cursor: pointer; 
+    font-size: 18px;
+    transition: 0.4s;
+    
+}
+.logo{
+    width: 20%;
+    height: 15vh;
+}
+#logo{
+    margin-left: 50%;
+    margin-top: 30px;
+    /* width: 50px;
+    height: 40px; */
+}
+#logo:hover {
+    transform: scale(1.1);
+}
+.functions{
+    display: flex;
+    /* background-color: crimson; */
+    width: 40%; 
+    height: 15vh; 
+}
+#functions{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 2em;
+    margin-left: 10em;
+    color: white;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+/* MAIN */
+
+.video-section1{
+    position: relative;
+}
+.text{
+    margin-left: 350px;
+    border-radius: 100px;
+    color: white;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 18em;
+
+}
+.text button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 30px;
+    border: none;
+    background-color: rgb(37, 68, 42);
+    border: 2px solid color(srgb rgb(21, 59, 21) green rgb(10, 66, 17));
+    transition: .5s ease;
+    opacity: 0.8;
+    background: transparent 10%;
+    cursor: pointer;
+    margin-top: 1em;
+}
+.text button:hover{
+    background-color: #26b758;
+    transform: translateY(-5px);
+    opacity: 1;
+}
+
+/* FOOTER */
+
+.footer{
+    /* margin-top: 0%;
+ */
+    padding-top: 10%; 
+    text-align: center;
+    background-image: url(images/img/WhatsApp\ Image\ 2024-08-28\ at\ 10.39.13_5329b98c.jpg);
+    width: 100%;
+    height: 300px;
+    /* background-repeat: no-repeat;
+    transition: rotateY(90deg);
+    transition: transform 10s ease-in-out;
+    cursor: pointer;
+    position: relative; */
+}
+.footer h1 a{
+    position: absolute;
+}
+
+.ftrlink{
+    text-decoration: none;
+    color: black;
+}
+.ftrlink:hover{
+    color: darkgreen;
+}
+.img{
+    width: 100%;
+    transition-property: width;
+    transition-property: height;
+    transition-duration: 10s;
+}
+.img :hover{
+    width: 110%;
+    height: 110%;
+}
+/* @keyframes move {
+            0% { left: 0%; }
+            50% { left: 50%; }
+            100% { left: 100%; }
+        }
+        .ani {
+            /* width: 300px;
+            height: 350px; 
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            animation: moveCar 5s linear infinite;
+        } */
+        @keyframes wave {
+            0% { transform: rotate(5deg); }
+            50% { transform: rotate(0deg); }
+            100% { transform: rotate(5deg); }
+        }
+        .ani {
+            animation: wave 3s linear infinite;
+            /* width: 300px;
+            height: 350px; */
+        }
+        @keyframes wave1 {
+            0% { transform: rotate(0deg); }
+            50% { transform: rotate(-5deg); }
+            100% { transform: rotate(0deg); }
+        }
+        .ani1 {
+            animation: wave1 3s linear infinite;
+            /* width: 300px;
+            height: 350px; */
+        }
+    </style>
+</head>
+    <body>
+      <header>
+        <div class="container">
+            <div class="menu">
+                <menu id="menu">
+                    <i class="fa-solid fa-grip-lines" style="color: #ffffff;"></i>
+                    <a href="#" style="color: white;">Menu</a>
+                 </menu>
+            </div>
+            <div class="logo">   
+                <img id="logo" src="./images/logo/rolex-logo-br.png" alt="Rolex Logo" width="30px" height="30px">
+            </div>
+            <div class="functions">
+                <ul id="functions">
+                    <li class="search">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                        <a href="#" style="color: white;" >Search</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                        <a href="#" style="color: white;" >Locator</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-right-to-bracket" style="color: #ffffff;"></i>
+                        <a href="login.html" style="color: white;">Logout</a>
+                    </li>
+                </ul>                   
+        </div>
+        </div>
+        
+      </header>
+
+      <main>
+        <div class="video-section1" id="v1">
+            <video  autoplay muted loop width="100%">
+                <source src="./videos/Rolex Submariner – Deep confidence (online-video-cutter.com) (1).mp4" type="video/mp4" >
+            </video>
+        </div>
+        <!-- <div class="video-section2" id="v2">
+            <video autoplay muted loop width="100%">
+                <source src="./videos/v2 rolex.mp4.mp4" type="video/mp4" >
+            </video>
+        </div> -->
+        <div class="img">
+            <img src="./images/img/rolex1.avif" width="100%">
+        </div>
+        <div class="ani">
+            <img src="./images/img/rolex2.avif" width="100%">
+        </div>
+        <div class="img">
+            <img src="./images/img/rolex3.avif" width="100%">
+        </div>
+        <div class="ani1">
+            <img src="./images/img/rolex4.avif" width="100%">
+        </div>
+        <div class="img">
+            <img src="./images/img/rolex5.avif" width="100%">
+        </div>
+        <div class="ani">
+            <img src="./images/img/rolex6.avif" width="100%">
+        </div>
+        <div class="img">
+            <img src="./images/img/rolex7.avif" width="100%">
+        </div>
+        <div class="ani1">
+            <img src="./images/img/rolex8.avif" width="100%">
+        </div>
+        <div class="img">
+            <img src="./images/img/rolex9.avif" width="100%">
+        </div>
+        <div class="ani">
+            <img src="./images/img/rolex10.avif" width="100%">
+        </div>
+        <div class="img">
+            <img src="./images/img/rolex11.avif" width="100%">
+        </div>
+        <div class="ani1">
+            <img src="./images/img/rolex12.avif" width="100%">
+        </div>
+        <div class="img">
+            <img src="./images/img/rolex13.avif" width="100%">
+        </div>
+        <div class="ani">
+            <img src="./images/img/rolex14.avif" width="100%">
+        </div>
+        
+
+      </main>
+
+      <footer>
+        <div class="footer">
+            <h1>Discover our Perpetual Initiatives</h1>
+            <a href="#" class="ftrlink">Visit Rolex.org</a>
+            <p>&copy; Copyright 2024, Designed by Farze</p>
+        </div>
+      </footer>
+
+    </body>
+</html>
